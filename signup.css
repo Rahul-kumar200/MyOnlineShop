@@ -1,0 +1,109 @@
+body
+{
+    /* text-align: center; */
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+}
+
+/* Header CSS (LOGO) */
+h1
+{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(90, 90, 226);
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h1 span
+{
+    font-size: 18px;
+    position: relative;
+    top:2px;
+}
+
+/* Form CSS */
+form{
+    display: flex;
+    width: 430px;
+    justify-content: center;
+    margin: auto;
+}
+
+legend
+{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.labels
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#name ,#email_id , #password
+{
+    width: 300px;
+    height: 24px;
+}
+
+#mobile_no
+{
+    height: 24px;
+    height: 24px;
+}
+#email_id
+{
+    width: 300px;
+    height: 24px;
+}
+ 
+#alert_msg
+{
+    font-size: 14px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+#alert_msg span{
+    font-weight: bold;
+}
+
+button{
+    display: inline-block;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+}
+
+button a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.last a{
+    text-decoration: none;
+    color: blue;
+    font-family: "Amazon Ember",Arial,sans-serif ;
+}
+
+.last a:hover 
+{
+    text-decoration: underline;
+    color: rgb(62, 27, 94);
+}
+
+footer
+{
+    display: flex;
+    height: 143px;
+    background-color: rgb(59, 60, 75);
+    color: white;
+    font-size: 16px;
+    font-family:  "Amazon Ember",Arial,sans-serif ;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

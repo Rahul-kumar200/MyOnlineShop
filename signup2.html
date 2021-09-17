@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up 2 form</title>
+    <link rel="stylesheet" href="signup2.css">
+</head>
+<body>
+    <h1>MyOnlineShop<span>.com</span></h1>
+    <form action="index.html">
+        <fieldset>
+            <legend>Other Information</legend>
+
+            <label for="first_name" class="labels">First Name *</label><br>
+            <input type="text" name="first_name" id="first_name" placeholder="First name" required>
+
+            <br><br>
+            <label for="last_name" class="labels">Last Name</label><br>
+            <input type="text" name="last_name" id="last_name"  placeholder="Last Name">
+
+            <br><br>
+            <label for="gender">Gender</label><br>
+            Male:
+            <input type="radio" name="gender" id="gender">
+            Female:
+            <input type="radio" name="gender" id="gender">
+            Other:
+            <input type="radio" name="gender" id="gender">
+           
+            <br><br>
+            <label for="age">Age * : </label>
+            <input type="number" name="age" id="age" required>
+
+
+            <br><br>
+            <div id="mobile_no">
+            <div>
+            <label for="mobile_no1" class="labels">Mobile number (1) *</label>
+            <input type="tel" name="mobile_no1" id="mobile_no1" required>
+           </div>
+            
+         <div>  
+            <label for="mobile_no1" class="labels">Mobile number (2)</label>
+            <input type="tel" name="mobile_no1" id="mobile_no1">
+        </div>
+            </div>
+            <br>
+            <label for="address" class="labels">Address *</label><br>
+            <input name="address" id="address" placeholder="Address" required >
+            <br><br>
+            <label for="district">District* :</label>
+            <input name="address" id="district" required >
+            <!-- <br><br> -->
+            <label for="state">State* :</label>
+            <input name="address" id="state" required >
+           <br> <br><br>
+            <label for="address_perm" class="labels">Address(Permanent)*</label><br>
+            <input name="address_perm" id="address_perm" placeholder="Address" required >
+            <br><br>
+            <label for="district_perm">District* :</label>
+            <input name="district_perm" id="district_perm" required >
+            <!-- <br><br> -->
+            <label for="state_perm">State* :</label>
+            <input name="state_perm" id="state_perm" required >
+
+            <br><br>
+           <a href="index.html"> <input type="submit" value="Submit" id="submit" ></a>
+            <input type="reset" value="Reset" id="reset">
+
+            <p id="last_p"><span>Note:</span> Your all data is secure and not will be given to any other website</p>
+        </fieldset>
+    </form>
+    <hr>
+    <footer>
+        All right are reserved under the &copy; copywrite section of 2012
+    </footer>
+</body>
+</html>

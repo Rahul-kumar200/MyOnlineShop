@@ -1,0 +1,116 @@
+body
+{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+}
+h1
+{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(90, 90, 226);
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h1 span
+{
+    font-size: 18px;
+    position: relative;
+    top:2px;
+}
+
+form
+{
+    width: 500px;
+    margin: auto;
+}
+
+legend
+{
+    font-size: 35px;
+}
+
+.labels
+{
+    font-family:"Amazon Ember",Arial,sans-serif;
+    font-size: 16px;
+}
+
+#first_name,#last_name
+{
+    width: 438px;
+    height: 22px;
+}
+
+#mobile_no
+{
+    display: flex;
+}
+
+#mobile_no input , #age{
+    width: 210px;
+    height: 22px;
+}
+
+#address , #address_perm
+{
+    border:none;
+    border-bottom: 1px solid #3a3a3a;
+    padding: 5px 10px 0px 10px;
+    outline: none;
+    height: 24px;
+    width: 400px;
+}
+
+#district ,#state ,#district_perm ,#state_perm
+{
+    border:none;
+    border-bottom: 1px solid #3a3a3a;
+    padding: 5px 10px 0px 10px;
+    outline: none;
+    height: 24px;
+    width: 130px;
+}
+
+#address:focus ,#district:focus , #state:focus  , #address_perm:focus ,#district_perm:focus , #state_perm:focus 
+{
+    border-bottom: 2px solid blue;
+}
+
+#submit
+{
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#reset
+{
+    margin-left: 50px;
+    width: 70px;
+    height: 30px; 
+    cursor: pointer;
+
+}
+
+#last_p
+{
+    font-size: 14px;
+}
+
+#last_p span
+{
+    font-weight: bold;
+}
+footer
+{
+    display: flex;
+    height: 143px;
+    background-color: rgb(59, 60, 75);
+    color: white;
+    font-size: 16px;
+    font-family:  "Amazon Ember",Arial,sans-serif ;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
